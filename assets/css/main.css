@@ -19,8 +19,10 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #008374;
-  --color-secondary: #f85a40;
+  /*yang di ubah warna nya*/
+  --color-primary: 	#008374; 
+  --color-secondary: #008374;
+  /* end */
 }
 
 /* Smooth scroll behavior */
@@ -509,7 +511,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: 	#fff;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -545,7 +547,7 @@ section {
 
   .navbar .getstarted,
   .navbar .getstarted:focus {
-    background: var(--color-primary);
+    background: 	#00CED1;
     padding: 8px 20px;
     border-radius: 4px;
     margin: 15px;
@@ -608,7 +610,9 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    /* yang diubah warna nya */
+    background:	#5F9EA0;
+    /* end */
     z-index: 9996;
   }
 }
@@ -1030,11 +1034,11 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #00b6a1;
+  background:var(--color-primary);
 }
 
 .services .service-item:hover h3 {
-  border-color: var(--color-primary);
+  border-color:var(--color-primary);
 }
 
 /*--------------------------------------------------------------
@@ -1754,11 +1758,11 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: 	#F8F8FF;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
-  color: #fff;
+  color: #000000;
 }
 
 .contact .info-item:last-child {
@@ -1767,7 +1771,7 @@ section {
 
 .contact .info-item i {
   font-size: 20px;
-  color: #fff;
+  color: #000000;
   float: left;
   width: 44px;
   height: 44px;
